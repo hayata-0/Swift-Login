@@ -1,5 +1,5 @@
 # Login機能の作成
-> Swift,Firebaseでのログイン機能実装
+Swift,Firebaseでのログイン機能実装
 
 ### 目的
 * swiftとFirebaseを使用してログイン機能を作成し、復習も兼ねて基礎を学び直しました。

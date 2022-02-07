@@ -13,6 +13,7 @@
 		0CDF388727B1494A007DC904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CDF388527B1494A007DC904 /* Main.storyboard */; };
 		0CDF388927B1494D007DC904 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CDF388827B1494D007DC904 /* Assets.xcassets */; };
 		0CDF388C27B1494D007DC904 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CDF388A27B1494D007DC904 /* LaunchScreen.storyboard */; };
+		0CDF389427B14DA5007DC904 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0CDF389327B14DA5007DC904 /* GoogleService-Info.plist */; };
 		7B745E2909E0CE1DAF9717C0 /* Pods_EmailPasswordLoginSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23500CC367281F9E0DFF3A3 /* Pods_EmailPasswordLoginSwift.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +26,7 @@
 		0CDF388827B1494D007DC904 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CDF388B27B1494D007DC904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0CDF388D27B1494D007DC904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CDF389327B14DA5007DC904 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		36487C9850F0981E67FCF48B /* Pods-EmailPasswordLoginSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailPasswordLoginSwift.debug.xcconfig"; path = "Target Support Files/Pods-EmailPasswordLoginSwift/Pods-EmailPasswordLoginSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		D23500CC367281F9E0DFF3A3 /* Pods_EmailPasswordLoginSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EmailPasswordLoginSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7718D624D1E794B0423F74B /* Pods-EmailPasswordLoginSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EmailPasswordLoginSwift.release.xcconfig"; path = "Target Support Files/Pods-EmailPasswordLoginSwift/Pods-EmailPasswordLoginSwift.release.xcconfig"; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 		0CDF387E27B1494A007DC904 /* EmailPasswordLoginSwift */ = {
 			isa = PBXGroup;
 			children = (
+				0CDF389327B14DA5007DC904 /* GoogleService-Info.plist */,
 				0CDF387F27B1494A007DC904 /* AppDelegate.swift */,
 				0CDF388127B1494A007DC904 /* SceneDelegate.swift */,
 				0CDF388327B1494A007DC904 /* ViewController.swift */,
@@ -88,7 +91,6 @@
 				36487C9850F0981E67FCF48B /* Pods-EmailPasswordLoginSwift.debug.xcconfig */,
 				E7718D624D1E794B0423F74B /* Pods-EmailPasswordLoginSwift.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -153,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CDF388C27B1494D007DC904 /* LaunchScreen.storyboard in Resources */,
+				0CDF389427B14DA5007DC904 /* GoogleService-Info.plist in Resources */,
 				0CDF388927B1494D007DC904 /* Assets.xcassets in Resources */,
 				0CDF388727B1494A007DC904 /* Main.storyboard in Resources */,
 			);

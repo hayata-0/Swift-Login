@@ -24,6 +24,7 @@ class ViewController: UIViewController {
         emailField.layer.borderWidth = 1
         //英字入力で最初の文字を大文字から小文字に変更
         emailField.autocapitalizationType = .none
+        emailField.layer.cornerRadius = 8
         emailField.layer.borderColor = UIColor.black.cgColor
         emailField.backgroundColor = .white
         emailField.leftViewMode = .always
@@ -35,6 +36,7 @@ class ViewController: UIViewController {
         let passwordField = UITextField()
         passwordField.placeholder = "パスワード"
         passwordField.layer.borderWidth = 1
+        passwordField.layer.cornerRadius = 8
         //文字を入力する際に文字が見えないようにする
         passwordField.isSecureTextEntry = true
         passwordField.layer.borderColor = UIColor.black.cgColor
@@ -46,28 +48,30 @@ class ViewController: UIViewController {
     
     private let button:UIButton = {
         let button = UIButton()
-        button.backgroundColor = .systemGreen
-        button.setTitleColor(.white, for: .normal)
+        button.backgroundColor = .white
+        button.setTitleColor(.black, for: .normal)
+        button.layer.cornerRadius = 8
         button.setTitle("ログイン", for: .normal)
         return button
     }()
     
     private let signOutButton:UIButton = {
         let signOutButton = UIButton()
-        signOutButton.backgroundColor = .systemGreen
-        signOutButton.setTitleColor(.white, for: .normal)
+        signOutButton.backgroundColor = .white
+        signOutButton.setTitleColor(.black, for: .normal)
+        signOutButton.layer.cornerRadius = 8
         signOutButton.setTitle("ログアウト", for: .normal)
         return signOutButton
     }()
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
         view.addSubview(label)
         view.addSubview(emailField)
         view.addSubview(passwordField)
         view.addSubview(button)
-        view.backgroundColor = .systemOrange
+        view.backgroundColor = .green
         button.addTarget(self, action: #selector(didTapButton), for: .touchUpInside)
         
         if FirebaseAuth.Auth.auth().currentUser != nil {
